@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D1387B1BD882C900BC6EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1387A1BD882C900BC6EFA /* main.m */; };
+		18D138831BD8832F00BC6EFA /* JKEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D138821BD8832F00BC6EFA /* JKEncrypt.m */; };
+		18D138871BD883C800BC6EFA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D138851BD883C800BC6EFA /* GTMBase64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18D138751BD882C900BC6EFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18A70CF51C1AAD2000265C7D /* ReadMe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
+		18D138771BD882C900BC6EFA /* JK3DES */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JK3DES; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D1387A1BD882C900BC6EFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D138811BD8832F00BC6EFA /* JKEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEncrypt.h; sourceTree = "<group>"; };
+		18D138821BD8832F00BC6EFA /* JKEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEncrypt.m; sourceTree = "<group>"; };
+		18D138841BD883C800BC6EFA /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		18D138851BD883C800BC6EFA /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		18D138861BD883C800BC6EFA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D138741BD882C900BC6EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D1386E1BD882C800BC6EFA = {
+			isa = PBXGroup;
+			children = (
+				18A70CF51C1AAD2000265C7D /* ReadMe.h */,
+				18D138841BD883C800BC6EFA /* GTMBase64.h */,
+				18D138851BD883C800BC6EFA /* GTMBase64.m */,
+				18D138861BD883C800BC6EFA /* GTMDefines.h */,
+				18D138811BD8832F00BC6EFA /* JKEncrypt.h */,
+				18D138821BD8832F00BC6EFA /* JKEncrypt.m */,
+				18D138791BD882C900BC6EFA /* 3DES研究 */,
+				18D138781BD882C900BC6EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D138781BD882C900BC6EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D138771BD882C900BC6EFA /* JK3DES */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D138791BD882C900BC6EFA /* 3DES研究 */ = {
+			isa = PBXGroup;
+			children = (
+				18D1387A1BD882C900BC6EFA /* main.m */,
+			);
+			path = "3DES研究";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D138761BD882C900BC6EFA /* JK3DES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D1387E1BD882C900BC6EFA /* Build configuration list for PBXNativeTarget "JK3DES" */;
+			buildPhases = (
+				18D138731BD882C900BC6EFA /* Sources */,
+				18D138741BD882C900BC6EFA /* Frameworks */,
+				18D138751BD882C900BC6EFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JK3DES;
+			productName = "3DES研究";
+			productReference = 18D138771BD882C900BC6EFA /* JK3DES */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D1386F1BD882C800BC6EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18D138761BD882C900BC6EFA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 18D138721BD882C800BC6EFA /* Build configuration list for PBXProject "JK3DES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D1386E1BD882C800BC6EFA;
+			productRefGroup = 18D138781BD882C900BC6EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D138761BD882C900BC6EFA /* JK3DES */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D138731BD882C900BC6EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D1387B1BD882C900BC6EFA /* main.m in Sources */,
+				18D138871BD883C800BC6EFA /* GTMBase64.m in Sources */,
+				18D138831BD8832F00BC6EFA /* JKEncrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18D1387C1BD882C900BC6EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18D1387D1BD882C900BC6EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18D1387F1BD882C900BC6EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = JK3DES;
+			};
+			name = Debug;
+		};
+		18D138801BD882C900BC6EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = JK3DES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D138721BD882C800BC6EFA /* Build configuration list for PBXProject "JK3DES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D1387C1BD882C900BC6EFA /* Debug */,
+				18D1387D1BD882C900BC6EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D1387E1BD882C900BC6EFA /* Build configuration list for PBXNativeTarget "JK3DES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D1387F1BD882C900BC6EFA /* Debug */,
+				18D138801BD882C900BC6EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D1386F1BD882C800BC6EFA /* Project object */;
+}
